@@ -1,6 +1,6 @@
 # Job-finder
 
-Job finder is a Java-based project designed to provide users with a comprehensive dashboard for navigating real-time employee offers, conducting web scraping from three user-selected websites, and utilizing machine learning algorithms for job prediction. This project is intentionally crafted to be minimalist, relying solely on Java and MySQL along with specific libraries catering to web scraping, machine learning, and database interactions.
+Job finder is a Java-based project designed to provide users with a comprehensive dashboard for navigating real-time employee offers, conducting web scraping from three user-selected websites, and utilizing machine learning algorithms for job prediction. This project is intentionally crafted to be minimalist, relying solely on Java and MySQL along with specific libraries catering to web scraping, machine learning, and database interactions.For the machine learning we used supervised learning model (Clustering) and unsupervised learning model (decision tree and random forest).
 
 ## Key Features:
 
