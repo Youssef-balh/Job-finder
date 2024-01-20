@@ -22,7 +22,7 @@ Job finder is a Java-based project designed to provide users with a comprehensiv
    - Intuitive job search functionality allowing users to filter results based on contract type, location, education level, and sector.
 
 5. **Predictive Analysis:**
-   - Advanced job title prediction using machine learning algorithms.
+   - Advanced job title prediction using machine learning algorithms based on education level,contract type,location and sector. 
    - Employs clustering, decision tree, and random forest algorithms from the Weka library.
 
 ## Technologies Used:
