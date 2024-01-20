@@ -38,7 +38,7 @@ Job finder is a Java-based project designed to provide users with a comprehensiv
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/JobScope-InsightHub.git
+   git clone https://github.com/Youssef-balh/JobScope-InsightHub.git
 2. **Database configuration:**
    - Make sure to change the port and the ip based on your configuration.
 3. **Build and Run**
