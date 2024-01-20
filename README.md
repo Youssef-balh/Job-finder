@@ -45,8 +45,8 @@ Job finder is a Java-based project designed to provide users with a comprehensiv
 
 | ![IMG-20240110-WA0014](https://github.com/Youssef-balh/Job-finder/assets/113738047/fffe2753-0703-4295-845d-ca74c7b49bb4) | ![IMG-20240110-WA0021](https://github.com/Youssef-balh/Job-finder/assets/113738047/bad7f17b-d9ac-43c2-9f9a-d3fa384b26fc) |
 | --- | --- |
-| ![IMG-20240110-WA0020](https://github.com/Youssef-balh/Job-finder/assets/113738047/e99d2a1e-9c17-41db-abac-3d136e216c50) | ![IMG-20240110-WA0018](https://github.com/Youssef-balh/Job-finder/assets/113738047/779786bb-9535-4295-99d0-5508309b00a6) |
-| ![IMG-20240110-WA0019](https://github.com/Youssef-balh/Job-finder/assets/113738047/66502b4e-6cec-474f-bb43-130273243725) | |
+| ![IMG-20240110-WA0019](https://github.com/Youssef-balh/Job-finder/assets/113738047/66502b4e-6cec-474f-bb43-130273243725) | ![IMG-20240110-WA0018](https://github.com/Youssef-balh/Job-finder/assets/113738047/779786bb-9535-4295-99d0-5508309b00a6) |
+| 
 
 
 
