@@ -1,0 +1,408 @@
+@relation table
+
+@attribute post_name {'Consultant Financier','IT Manager','Conseillers Commerciaux Experts en Assurance','Technicien maintenance','Chargés Clientèle Réception d\'appels','Chef de projet Senior Build','Senior Software Engineer','Concepteur Développeur Python','Data Analyst','Gestionnaire de Paie','Research Scientist','Acheteur Projets Anglophone','Courtier Français en assurance Recrute'}
+@attribute type_de_contrat {Freelance,CDI,Stage,CDD}
+@attribute region {'Casablanca et région','Rabat et région','kénitra et région','Agadir et région','Fès et région','Meknès et région','Marrakech et région','Tanger et région'}
+@attribute niveau_etude {Bac+3,Bac+2,Bac,Bac+5,BAC}
+@attribute secteur {Gestion,BTP,'Centre d\'appels',Informatique,Banque,Hôtellerie,Agriculture,Automobile,Commerciale,Industrie,Agroalimentaire,Comptabilité,Éducation,Télécommunications}
+
+@data
+'Consultant Financier',Freelance,'Casablanca et région',Bac+3,Gestion
+'IT Manager',CDI,'Casablanca et région',Bac+3,BTP
+'Conseillers Commerciaux Experts en Assurance',Freelance,'Rabat et région',Bac+2,'Centre d\'appels'
+'Conseillers Commerciaux Experts en Assurance',Freelance,'Rabat et région',Bac,'Centre d\'appels'
+'Conseillers Commerciaux Experts en Assurance',Freelance,'Rabat et région',Bac,'Centre d\'appels'
+'IT Manager',CDI,'Rabat et région',Bac+5,Informatique
+'IT Manager',CDI,'Casablanca et région',Bac+5,Informatique
+'IT Manager',CDI,'Casablanca et région',Bac+5,Gestion
+'IT Manager',CDI,'Rabat et région',Bac+5,Informatique
+'Consultant Financier',CDI,'Casablanca et région',Bac+3,Gestion
+'Technicien maintenance',CDI,'Rabat et région',Bac+2,BTP
+'IT Manager',CDI,'Rabat et région',Bac+5,Informatique
+'IT Manager',CDI,'Casablanca et région',Bac+5,Gestion
+'Chargés Clientèle Réception d\'appels',CDI,'Casablanca et région',Bac,'Centre d\'appels'
+'IT Manager',CDI,'Casablanca et région',Bac+5,Banque
+'Chef de projet Senior Build',CDI,'Casablanca et région',Bac+5,Informatique
+'IT Manager',CDI,'Casablanca et région',Bac+5,Informatique
+'IT Manager',CDI,'Casablanca et région',Bac+5,Banque
+'Senior Software Engineer',CDI,'kénitra et région',Bac+5,Informatique
+'Chef de projet Senior Build',CDI,'Casablanca et région',Bac+5,Informatique
+'Chef de projet Senior Build',CDI,'Casablanca et région',Bac+5,Gestion
+'Senior Software Engineer',CDI,'Casablanca et région',Bac+5,Informatique
+'IT Manager',CDI,'Casablanca et région',Bac+5,Informatique
+'Concepteur Développeur Python',CDI,'Casablanca et région',Bac+5,Informatique
+'IT Manager',CDI,'Casablanca et région',Bac+5,Informatique
+'IT Manager',CDI,'Rabat et région',Bac+5,Informatique
+'Consultant Financier',CDI,'Rabat et région',Bac+5,Informatique
+'IT Manager',CDI,'Casablanca et région',Bac+3,Hôtellerie
+'Technicien maintenance',Stage,'Casablanca et région',Bac+3,Informatique
+'Chargés Clientèle Réception d\'appels',Freelance,'Agadir et région',Bac+3,Banque
+'Chargés Clientèle Réception d\'appels',CDI,'Casablanca et région',Bac,'Centre d\'appels'
+'Consultant Financier',CDI,'Casablanca et région',Bac+5,Gestion
+'IT Manager',CDI,'Casablanca et région',Bac+5,BTP
+'IT Manager',CDI,'Casablanca et région',Bac+5,Informatique
+'IT Manager',CDD,'Casablanca et région',Bac+5,Informatique
+'IT Manager',CDI,'Casablanca et région',Bac+5,Informatique
+'IT Manager',CDI,'Casablanca et région',Bac+5,Informatique
+'IT Manager',Freelance,'Rabat et région',Bac+5,Informatique
+'Conseillers Commerciaux Experts en Assurance',Freelance,'Agadir et région',Bac,'Centre d\'appels'
+'IT Manager',Freelance,'Agadir et région',Bac,'Centre d\'appels'
+'Chef de projet Senior Build',CDD,'Rabat et région',Bac+5,Gestion
+'Technicien maintenance',CDI,'Rabat et région',Bac+2,BTP
+'IT Manager',CDI,'Rabat et région',Bac+5,BTP
+'Technicien maintenance',CDD,'kénitra et région',Bac+2,BTP
+'Technicien maintenance',CDD,'Fès et région',Bac+2,BTP
+'IT Manager',CDI,'Rabat et région',Bac+5,Agriculture
+'Technicien maintenance',CDD,'kénitra et région',Bac+2,BTP
+'Technicien maintenance',CDD,'Rabat et région',Bac+2,BTP
+'IT Manager',CDI,'Rabat et région',Bac+5,Gestion
+'Technicien maintenance',CDI,'Rabat et région',Bac+2,BTP
+'Technicien maintenance',CDI,'Rabat et région',Bac+2,Agriculture
+'IT Manager',CDI,'Casablanca et région',Bac+3,Automobile
+'IT Manager',CDI,'Casablanca et région',Bac+5,Automobile
+'Conseillers Commerciaux Experts en Assurance',CDI,'Rabat et région',Bac+2,Commerciale
+'Concepteur Développeur Python',CDI,'Casablanca et région',Bac+5,Informatique
+'IT Manager',CDI,'Casablanca et région',Bac+2,Commerciale
+'IT Manager',CDI,'Rabat et région',Bac+5,Gestion
+'IT Manager',CDI,'Casablanca et région',Bac+3,Industrie
+'IT Manager',CDI,'Casablanca et région',Bac+3,Automobile
+'Conseillers Commerciaux Experts en Assurance',Freelance,'Meknès et région',Bac+2,'Centre d\'appels'
+'Conseillers Commerciaux Experts en Assurance',CDI,'Meknès et région',Bac,'Centre d\'appels'
+'Conseillers Commerciaux Experts en Assurance',Freelance,'Meknès et région',Bac,'Centre d\'appels'
+'Conseillers Commerciaux Experts en Assurance',Freelance,'Marrakech et région',Bac,'Centre d\'appels'
+'IT Manager',Freelance,'Marrakech et région',Bac,Automobile
+'IT Manager',Freelance,'Marrakech et région',Bac,'Centre d\'appels'
+'Conseillers Commerciaux Experts en Assurance',Freelance,'Marrakech et région',Bac+2,'Centre d\'appels'
+'Conseillers Commerciaux Experts en Assurance',Freelance,'Marrakech et région',Bac,'Centre d\'appels'
+'IT Manager',CDI,'kénitra et région',Bac,'Centre d\'appels'
+'IT Manager',Freelance,'kénitra et région',Bac,'Centre d\'appels'
+'IT Manager',Freelance,'kénitra et région',Bac+2,'Centre d\'appels'
+'Conseillers Commerciaux Experts en Assurance',Freelance,'Fès et région',Bac,'Centre d\'appels'
+'IT Manager',Freelance,'Fès et région',Bac,'Centre d\'appels'
+'Conseillers Commerciaux Experts en Assurance',Freelance,'Fès et région',Bac,'Centre d\'appels'
+'Conseillers Commerciaux Experts en Assurance',Freelance,'Fès et région',Bac,'Centre d\'appels'
+'Conseillers Commerciaux Experts en Assurance',Freelance,'Fès et région',Bac+2,'Centre d\'appels'
+'Conseillers Commerciaux Experts en Assurance',Freelance,'Casablanca et région',Bac,'Centre d\'appels'
+'Conseillers Commerciaux Experts en Assurance',Freelance,'Casablanca et région',Bac,'Centre d\'appels'
+'Conseillers Commerciaux Experts en Assurance',Freelance,'Agadir et région',Bac,'Centre d\'appels'
+'Conseillers Commerciaux Experts en Assurance',Freelance,'Agadir et région',Bac,'Centre d\'appels'
+'Conseillers Commerciaux Experts en Assurance',Freelance,'Agadir et région',Bac,'Centre d\'appels'
+'Conseillers Commerciaux Experts en Assurance',CDI,'Agadir et région',Bac,'Centre d\'appels'
+'Conseillers Commerciaux Experts en Assurance',Freelance,'Agadir et région',Bac,'Centre d\'appels'
+'Conseillers Commerciaux Experts en Assurance',Freelance,'Agadir et région',Bac,'Centre d\'appels'
+'Conseillers Commerciaux Experts en Assurance',Freelance,'Agadir et région',Bac,'Centre d\'appels'
+'Data Analyst',CDI,'Rabat et région',Bac+5,Informatique
+'Conseillers Commerciaux Experts en Assurance',CDI,'Rabat et région',Bac+3,Commerciale
+'IT Manager',CDI,'kénitra et région',Bac+2,Commerciale
+'Gestionnaire de Paie',CDD,'Casablanca et région',Bac+3,Gestion
+'Technicien maintenance',CDI,'Casablanca et région',Bac+2,Automobile
+'Concepteur Développeur Python',CDI,'Casablanca et région',Bac+5,Informatique
+'IT Manager',CDI,'Rabat et région',Bac+5,BTP
+'Technicien maintenance',CDD,'Rabat et région',Bac+2,BTP
+'Technicien maintenance',CDI,'Rabat et région',Bac+2,Gestion
+'Consultant Financier',CDI,'Casablanca et région',Bac+5,Informatique
+'Data Analyst',CDI,'Casablanca et région',Bac+5,Informatique
+'IT Manager',CDI,'Casablanca et région',Bac+3,Informatique
+'Data Analyst',CDI,'Casablanca et région',Bac+5,Informatique
+'Data Analyst',CDI,'Casablanca et région',Bac+5,Informatique
+'Chargés Clientèle Réception d\'appels',CDI,'Casablanca et région',Bac,'Centre d\'appels'
+'IT Manager',CDI,'kénitra et région',Bac+3,Informatique
+'Senior Software Engineer',CDI,'kénitra et région',Bac+3,Informatique
+'Senior Software Engineer',CDI,'kénitra et région',Bac+3,Informatique
+'Chef de projet Senior Build',CDI,'Casablanca et région',Bac+5,Informatique
+'Chef de projet Senior Build',CDI,'Rabat et région',Bac+5,Gestion
+'Concepteur Développeur Python',CDI,'Rabat et région',Bac+5,Informatique
+'Research Scientist',CDI,'Marrakech et région',Bac+5,Gestion
+'Senior Software Engineer',CDI,'kénitra et région',Bac+3,Informatique
+'Chef de projet Senior Build',CDI,'Rabat et région',Bac+5,Gestion
+'IT Manager',CDI,'Casablanca et région',Bac+3,Commerciale
+'Gestionnaire de Paie',CDI,'Rabat et région',Bac+3,Informatique
+'IT Manager',Stage,'Casablanca et région',Bac+5,Informatique
+'IT Manager',CDI,'Rabat et région',Bac+5,Informatique
+'IT Manager',CDI,'kénitra et région',Bac+5,Informatique
+'Senior Software Engineer',CDI,'kénitra et région',Bac+3,Informatique
+'IT Manager',CDI,'Rabat et région',Bac+5,BTP
+'Conseillers Commerciaux Experts en Assurance',Freelance,'Rabat et région',Bac,'Centre d\'appels'
+'Senior Software Engineer',CDI,'kénitra et région',Bac+3,Informatique
+'Chargés Clientèle Réception d\'appels',CDD,'Rabat et région',Bac+3,'Centre d\'appels'
+'Senior Software Engineer',CDI,'kénitra et région',Bac+3,Informatique
+'Chargés Clientèle Réception d\'appels',CDI,'Casablanca et région',Bac,'Centre d\'appels'
+'Chargés Clientèle Réception d\'appels',CDI,'Fès et région',Bac+5,Commerciale
+'Chef de projet Senior Build',CDI,'Casablanca et région',Bac+5,Gestion
+'Data Analyst',CDI,'Casablanca et région',Bac+5,Gestion
+'Data Analyst',CDI,'Casablanca et région',Bac+5,Informatique
+'IT Manager',CDI,'Casablanca et région',Bac+5,Gestion
+'Gestionnaire de Paie',CDI,'Casablanca et région',Bac+3,Gestion
+'Chef de projet Senior Build',CDI,'Casablanca et région',Bac+5,Informatique
+'Consultant Financier',CDI,'Casablanca et région',Bac+5,Banque
+'Chef de projet Senior Build',CDI,'Marrakech et région',Bac+5,Informatique
+'Data Analyst',CDI,'Marrakech et région',Bac+5,Informatique
+'Data Analyst',CDD,'Marrakech et région',Bac+3,Agriculture
+'Concepteur Développeur Python',CDD,'Casablanca et région',Bac+3,Informatique
+'Conseillers Commerciaux Experts en Assurance',Freelance,'Rabat et région',Bac,'Centre d\'appels'
+'IT Manager',CDI,'Meknès et région',Bac+5,Agroalimentaire
+'Chef de projet Senior Build',CDI,'Tanger et région',Bac+5,Automobile
+'Chargés Clientèle Réception d\'appels',CDI,'Casablanca et région',Bac,'Centre d\'appels'
+'IT Manager',CDI,'Casablanca et région',Bac+5,Automobile
+'IT Manager',CDI,'Casablanca et région',Bac+5,Informatique
+'Chef de projet Senior Build',CDI,'Casablanca et région',Bac+5,Banque
+'IT Manager',CDI,'kénitra et région',Bac+5,Industrie
+'Concepteur Développeur Python',CDI,'Rabat et région',Bac+5,Informatique
+'Concepteur Développeur Python',CDI,'Rabat et région',Bac+5,Informatique
+'Conseillers Commerciaux Experts en Assurance',CDI,'Rabat et région',Bac,'Centre d\'appels'
+'IT Manager',CDI,'Rabat et région',Bac+5,Informatique
+'Concepteur Développeur Python',CDI,'Rabat et région',Bac+5,Informatique
+'Concepteur Développeur Python',CDI,'Rabat et région',Bac+5,Informatique
+'Data Analyst',CDI,'Rabat et région',Bac+5,Informatique
+'Chef de projet Senior Build',CDI,'Rabat et région',Bac+5,Informatique
+'Concepteur Développeur Python',CDI,'Rabat et région',Bac+5,Informatique
+'IT Manager',CDI,'Casablanca et région',Bac+5,Informatique
+'Conseillers Commerciaux Experts en Assurance',CDI,'Rabat et région',Bac+3,Commerciale
+'IT Manager',CDI,'Casablanca et région',Bac+3,Commerciale
+'IT Manager',CDI,'Casablanca et région',Bac+3,Commerciale
+'Data Analyst',CDI,'Rabat et région',Bac+5,Informatique
+'IT Manager',CDI,'Casablanca et région',Bac+3,Agroalimentaire
+'IT Manager',CDI,'Casablanca et région',Bac+5,Informatique
+'Chargés Clientèle Réception d\'appels',CDI,'Casablanca et région',Bac,'Centre d\'appels'
+'IT Manager',CDI,'kénitra et région',Bac+5,Informatique
+'Chargés Clientèle Réception d\'appels',CDI,'Rabat et région',Bac,'Centre d\'appels'
+'IT Manager',CDI,'Meknès et région',Bac+5,Agriculture
+'Chef de projet Senior Build',CDI,'Casablanca et région',Bac+5,Informatique
+'Consultant Financier',CDI,'Tanger et région',Bac+5,Gestion
+'IT Manager',CDI,'Casablanca et région',Bac+5,Industrie
+'IT Manager',CDD,'Casablanca et région',Bac+5,Informatique
+'IT Manager',CDI,'Casablanca et région',Bac+5,Banque
+'IT Manager',CDI,'Rabat et région',Bac+5,Informatique
+'IT Manager',CDI,'kénitra et région',Bac+5,Informatique
+'Technicien maintenance',CDI,'Casablanca et région',Bac+3,Industrie
+'IT Manager',CDI,'Casablanca et région',Bac+5,Hôtellerie
+'Gestionnaire de Paie',CDI,'Casablanca et région',Bac+3,Industrie
+'Chargés Clientèle Réception d\'appels',CDI,'Casablanca et région',Bac,'Centre d\'appels'
+'IT Manager',CDI,'Casablanca et région',Bac+3,'Centre d\'appels'
+'Gestionnaire de Paie',CDI,'Casablanca et région',Bac+3,Gestion
+'IT Manager',CDI,'Casablanca et région',Bac+5,Banque
+'Chargés Clientèle Réception d\'appels',CDI,'Rabat et région',Bac,'Centre d\'appels'
+'IT Manager',CDI,'Casablanca et région',Bac+5,Industrie
+'Data Analyst',CDI,'Casablanca et région',Bac+5,Informatique
+'Concepteur Développeur Python',CDI,'Casablanca et région',Bac+5,Informatique
+'Chargés Clientèle Réception d\'appels',CDD,'Marrakech et région',Bac+2,'Centre d\'appels'
+'Consultant Financier',CDI,'Casablanca et région',Bac+5,Gestion
+'IT Manager',CDI,'Marrakech et région',Bac+2,'Centre d\'appels'
+'IT Manager',CDI,'Casablanca et région',Bac+5,Gestion
+'IT Manager',CDI,'Casablanca et région',Bac+5,Gestion
+'Data Analyst',CDI,'kénitra et région',Bac+5,Informatique
+'IT Manager',CDI,'Casablanca et région',Bac+5,Informatique
+'Chargés Clientèle Réception d\'appels',CDD,'Rabat et région',Bac,'Centre d\'appels'
+'Chargés Clientèle Réception d\'appels',CDI,'Rabat et région',Bac+2,'Centre d\'appels'
+'Consultant Financier',Freelance,'Casablanca et région',Bac+3,Gestion
+'Chargés Clientèle Réception d\'appels',CDI,'Casablanca et région',Bac,'Centre d\'appels'
+'IT Manager',CDI,'kénitra et région',Bac+3,Automobile
+'IT Manager',CDI,'kénitra et région',Bac+3,Automobile
+'IT Manager',CDI,'Casablanca et région',Bac+3,Commerciale
+'IT Manager',CDI,'kénitra et région',Bac+3,Automobile
+'IT Manager',CDI,'Casablanca et région',Bac+5,Industrie
+'IT Manager',CDI,'kénitra et région',Bac+5,Informatique
+'IT Manager',CDI,'Casablanca et région',Bac+5,Industrie
+'IT Manager',CDI,'Rabat et région',Bac+5,Gestion
+'Data Analyst',CDI,'Rabat et région',Bac+3,Informatique
+'IT Manager',CDI,'Casablanca et région',Bac+3,Informatique
+'Chargés Clientèle Réception d\'appels',CDI,'Casablanca et région',Bac,'Centre d\'appels'
+'Technicien maintenance',CDI,'Rabat et région',Bac+2,Informatique
+'Chargés Clientèle Réception d\'appels',CDI,'Casablanca et région',Bac+3,Banque
+'Chargés Clientèle Réception d\'appels',CDI,'Agadir et région',Bac+3,Banque
+'IT Manager',CDI,'Casablanca et région',Bac+5,Agroalimentaire
+'IT Manager',CDI,'Marrakech et région',Bac+3,Commerciale
+'IT Manager',CDI,'Casablanca et région',Bac+5,Gestion
+'Concepteur Développeur Python',CDI,'Rabat et région',Bac+5,Informatique
+'Conseillers Commerciaux Experts en Assurance',CDI,'Casablanca et région',Bac,'Centre d\'appels'
+'IT Manager',CDI,'Rabat et région',Bac+5,Informatique
+'Chargés Clientèle Réception d\'appels',CDI,'Casablanca et région',Bac,'Centre d\'appels'
+'Consultant Financier',CDI,'Casablanca et région',Bac+3,Comptabilité
+'IT Manager',CDI,'Fès et région',Bac+5,Informatique
+'Chargés Clientèle Réception d\'appels',CDI,'Casablanca et région',Bac+2,'Centre d\'appels'
+'IT Manager',CDI,'kénitra et région',Bac+5,Automobile
+'IT Manager',CDI,'Rabat et région',Bac+5,Gestion
+'Conseillers Commerciaux Experts en Assurance',CDI,'Marrakech et région',Bac+3,Commerciale
+'Chargés Clientèle Réception d\'appels',CDI,'Casablanca et région',Bac,'Centre d\'appels'
+'IT Manager',CDI,'Rabat et région',Bac+5,Informatique
+'Chef de projet Senior Build',CDI,'Casablanca et région',Bac+5,'Centre d\'appels'
+'Technicien maintenance',CDI,'Fès et région',Bac+2,Informatique
+'IT Manager',CDI,'Casablanca et région',Bac+3,Industrie
+'IT Manager',CDI,'Casablanca et région',Bac+5,Informatique
+'Chargés Clientèle Réception d\'appels',CDI,'Casablanca et région',Bac,'Centre d\'appels'
+'IT Manager',CDI,'Casablanca et région',Bac+5,Informatique
+'IT Manager',CDI,'Casablanca et région',Bac+5,Banque
+'Consultant Financier',CDI,'Casablanca et région',Bac+3,Informatique
+'IT Manager',CDI,'Meknès et région',Bac+5,Automobile
+'Concepteur Développeur Python',CDI,'Casablanca et région',Bac+5,Automobile
+'IT Manager',CDI,'Casablanca et région',Bac+5,Automobile
+'IT Manager',CDI,'Casablanca et région',Bac+5,Automobile
+'Technicien maintenance',CDI,'Casablanca et région',Bac+3,Automobile
+'IT Manager',CDI,'Meknès et région',Bac,'Centre d\'appels'
+'IT Manager',CDI,'Casablanca et région',Bac+5,Informatique
+'IT Manager',CDI,'Rabat et région',Bac+5,Gestion
+'Concepteur Développeur Python',CDI,'Rabat et région',Bac+5,Informatique
+'IT Manager',CDI,'Casablanca et région',Bac+3,Informatique
+'Chargés Clientèle Réception d\'appels',CDI,'Fès et région',Bac+2,'Centre d\'appels'
+'Technicien maintenance',CDI,'Casablanca et région',Bac+2,Informatique
+'Concepteur Développeur Python',CDI,'Casablanca et région',Bac+2,Informatique
+'Chef de projet Senior Build',CDI,'Casablanca et région',Bac+5,Gestion
+'IT Manager',CDI,'Casablanca et région',Bac+3,'Centre d\'appels'
+'IT Manager',Freelance,'kénitra et région',Bac+5,Informatique
+'IT Manager',CDI,'Casablanca et région',Bac+5,BTP
+'Chargés Clientèle Réception d\'appels',CDI,'Agadir et région',Bac+3,Banque
+'Chargés Clientèle Réception d\'appels',CDI,'Marrakech et région',Bac+3,Banque
+'IT Manager',CDI,'Casablanca et région',Bac+5,Agroalimentaire
+'IT Manager',CDI,'kénitra et région',Bac+5,Automobile
+'Concepteur Développeur Python',CDI,'Casablanca et région',Bac+5,Informatique
+'Chargés Clientèle Réception d\'appels',CDI,'Marrakech et région',Bac+5,Commerciale
+'IT Manager',Freelance,'Tanger et région',Bac+3,'Centre d\'appels'
+'Gestionnaire de Paie',CDI,'Rabat et région',Bac+5,Gestion
+'Chef de projet Senior Build',CDI,'Rabat et région',Bac+5,Gestion
+'Chargés Clientèle Réception d\'appels',CDI,'Casablanca et région',Bac,'Centre d\'appels'
+'IT Manager',CDI,'Casablanca et région',Bac+5,Informatique
+'IT Manager',CDI,'Casablanca et région',Bac+5,Informatique
+'Technicien maintenance',CDI,'Casablanca et région',Bac+2,Industrie
+'IT Manager',CDI,'kénitra et région',Bac+3,BTP
+'IT Manager',CDI,'Casablanca et région',Bac+3,Informatique
+'Chargés Clientèle Réception d\'appels',CDD,'Marrakech et région',Bac+2,'Centre d\'appels'
+'Chargés Clientèle Réception d\'appels',CDD,'Casablanca et région',Bac+5,'Centre d\'appels'
+'Technicien maintenance',Freelance,'Casablanca et région',Bac+2,Industrie
+'Acheteur Projets Anglophone',CDI,'Casablanca et région',Bac+3,Industrie
+'IT Manager',CDI,'Casablanca et région',Bac+5,Informatique
+'Technicien maintenance',CDI,'Rabat et région',Bac+2,'Centre d\'appels'
+'Chargés Clientèle Réception d\'appels',CDI,'Casablanca et région',Bac,'Centre d\'appels'
+'IT Manager',CDI,'Casablanca et région',Bac+5,Automobile
+'Chef de projet Senior Build',CDI,'Rabat et région',Bac+5,Gestion
+'Acheteur Projets Anglophone',CDI,'Casablanca et région',Bac+3,BTP
+'IT Manager',CDI,'Casablanca et région',Bac+3,BTP
+'Chargés Clientèle Réception d\'appels',CDI,'Casablanca et région',Bac,'Centre d\'appels'
+'IT Manager',CDI,'Rabat et région',Bac+5,Informatique
+'Chargés Clientèle Réception d\'appels',Freelance,'Casablanca et région',Bac+3,'Centre d\'appels'
+'IT Manager',CDI,'Casablanca et région',Bac+5,Informatique
+'IT Manager',CDI,'Casablanca et région',Bac+5,Gestion
+'Chargés Clientèle Réception d\'appels',Freelance,'Rabat et région',Bac+3,Banque
+'Chargés Clientèle Réception d\'appels',CDD,'Casablanca et région',Bac+3,'Centre d\'appels'
+'Concepteur Développeur Python',CDI,'Rabat et région',Bac+5,Informatique
+'Chargés Clientèle Réception d\'appels',CDI,'Casablanca et région',Bac,'Centre d\'appels'
+'Chargés Clientèle Réception d\'appels',CDI,'Casablanca et région',Bac+3,Banque
+'Technicien maintenance',CDI,'Rabat et région',Bac+2,'Centre d\'appels'
+'Conseillers Commerciaux Experts en Assurance',CDI,'Casablanca et région',Bac+2,'Centre d\'appels'
+'Chargés Clientèle Réception d\'appels',CDI,'Marrakech et région',Bac+2,'Centre d\'appels'
+'Conseillers Commerciaux Experts en Assurance',CDI,'Rabat et région',BAC,'Centre d\'appels'
+'Conseillers Commerciaux Experts en Assurance',CDI,'Rabat et région',Bac,'Centre d\'appels'
+'Gestionnaire de Paie',CDI,'Rabat et région',BAC,'Centre d\'appels'
+'IT Manager',CDD,'Casablanca et région',Bac+5,'Centre d\'appels'
+'Conseillers Commerciaux Experts en Assurance',CDI,'Casablanca et région',Bac+5,'Centre d\'appels'
+'Courtier Français en assurance Recrute',CDI,'Casablanca et région',Bac+2,'Centre d\'appels'
+'Conseillers Commerciaux Experts en Assurance',CDI,'Casablanca et région',Bac+2,'Centre d\'appels'
+'Courtier Français en assurance Recrute',CDI,'Casablanca et région',Bac+2,'Centre d\'appels'
+'Chargés Clientèle Réception d\'appels',CDI,'Marrakech et région',Bac+2,'Centre d\'appels'
+'Chargés Clientèle Réception d\'appels',CDI,'Casablanca et région',Bac+2,'Centre d\'appels'
+'Chargés Clientèle Réception d\'appels',CDI,'Casablanca et région',Bac+2,'Centre d\'appels'
+'Conseillers Commerciaux Experts en Assurance',CDI,'Casablanca et région',Bac+2,'Centre d\'appels'
+'Gestionnaire de Paie',CDI,'Casablanca et région',Bac+3,'Centre d\'appels'
+'Conseillers Commerciaux Experts en Assurance',CDI,'Casablanca et région',Bac+2,'Centre d\'appels'
+'Courtier Français en assurance Recrute',CDI,'Casablanca et région',Bac+2,'Centre d\'appels'
+'Courtier Français en assurance Recrute',CDI,'Casablanca et région',Bac+2,'Centre d\'appels'
+'Chargés Clientèle Réception d\'appels',CDI,'Marrakech et région',Bac+2,'Centre d\'appels'
+'Conseillers Commerciaux Experts en Assurance',CDI,'Casablanca et région',Bac+2,'Centre d\'appels'
+'Conseillers Commerciaux Experts en Assurance',CDI,'Rabat et région',BAC,'Centre d\'appels'
+'IT Manager',CDI,'Rabat et région',Bac+2,'Centre d\'appels'
+'Gestionnaire de Paie',CDI,'Casablanca et région',Bac+3,Banque
+'Courtier Français en assurance Recrute',CDI,'Casablanca et région',Bac+2,'Centre d\'appels'
+'Conseillers Commerciaux Experts en Assurance',CDI,'Casablanca et région',Bac+2,'Centre d\'appels'
+'Courtier Français en assurance Recrute',CDI,'Casablanca et région',Bac+2,'Centre d\'appels'
+'Chargés Clientèle Réception d\'appels',CDI,'Marrakech et région',Bac+2,'Centre d\'appels'
+'Courtier Français en assurance Recrute',CDI,'Casablanca et région',Bac+2,'Centre d\'appels'
+'Courtier Français en assurance Recrute',CDI,'Casablanca et région',Bac+2,'Centre d\'appels'
+'Conseillers Commerciaux Experts en Assurance',CDI,'Casablanca et région',Bac+2,'Centre d\'appels'
+'Chargés Clientèle Réception d\'appels',CDI,'Marrakech et région',Bac+2,'Centre d\'appels'
+'Conseillers Commerciaux Experts en Assurance',CDI,'Rabat et région',Bac+2,'Centre d\'appels'
+'Chargés Clientèle Réception d\'appels',CDI,'Casablanca et région',Bac+2,'Centre d\'appels'
+'Chargés Clientèle Réception d\'appels',CDI,'Marrakech et région',BAC,'Centre d\'appels'
+'Courtier Français en assurance Recrute',CDI,'Casablanca et région',Bac+2,'Centre d\'appels'
+'Conseillers Commerciaux Experts en Assurance',CDI,'Casablanca et région',Bac+2,'Centre d\'appels'
+'Courtier Français en assurance Recrute',CDI,'Casablanca et région',Bac+2,'Centre d\'appels'
+'Chargés Clientèle Réception d\'appels',CDI,'Marrakech et région',Bac+2,'Centre d\'appels'
+'IT Manager',Freelance,'Rabat et région',Bac+3,Éducation
+'IT Manager',CDI,'Marrakech et région',Bac,'Centre d\'appels'
+'Chargés Clientèle Réception d\'appels',CDI,'Casablanca et région',Bac+2,'Centre d\'appels'
+'Conseillers Commerciaux Experts en Assurance',CDI,'Casablanca et région',Bac+2,'Centre d\'appels'
+'Courtier Français en assurance Recrute',CDI,'Casablanca et région',Bac+2,'Centre d\'appels'
+'IT Manager',CDI,'Casablanca et région',BAC,'Centre d\'appels'
+'Courtier Français en assurance Recrute',CDI,'Casablanca et région',Bac+2,'Centre d\'appels'
+'Conseillers Commerciaux Experts en Assurance',CDI,'Casablanca et région',Bac+2,Télécommunications
+'Conseillers Commerciaux Experts en Assurance',CDI,'Casablanca et région',Bac+2,'Centre d\'appels'
+'Chargés Clientèle Réception d\'appels',CDI,'Casablanca et région',Bac+2,'Centre d\'appels'
+'Chargés Clientèle Réception d\'appels',CDI,'Casablanca et région',Bac+2,'Centre d\'appels'
+'Courtier Français en assurance Recrute',CDI,'Casablanca et région',Bac+2,'Centre d\'appels'
+'Courtier Français en assurance Recrute',CDI,'Casablanca et région',Bac+2,'Centre d\'appels'
+'Conseillers Commerciaux Experts en Assurance',CDI,'Casablanca et région',Bac+2,'Centre d\'appels'
+'IT Manager',CDI,'kénitra et région',Bac+5,Gestion
+'IT Manager',CDI,'Casablanca et région',BAC,'Centre d\'appels'
+'IT Manager',CDI,'Fès et région',BAC,'Centre d\'appels'
+'Chargés Clientèle Réception d\'appels',CDI,'Marrakech et région',BAC,'Centre d\'appels'
+'Courtier Français en assurance Recrute',CDI,'Casablanca et région',Bac+2,'Centre d\'appels'
+'Conseillers Commerciaux Experts en Assurance',CDI,'Casablanca et région',Bac+2,'Centre d\'appels'
+'Conseillers Commerciaux Experts en Assurance',CDI,'Marrakech et région',Bac+2,'Centre d\'appels'
+'IT Manager',CDI,'kénitra et région',Bac+2,'Centre d\'appels'
+'Chargés Clientèle Réception d\'appels',CDI,'Marrakech et région',Bac+2,'Centre d\'appels'
+'Chargés Clientèle Réception d\'appels',CDI,'Casablanca et région',Bac+2,'Centre d\'appels'
+'Courtier Français en assurance Recrute',CDI,'Casablanca et région',Bac+2,'Centre d\'appels'
+'Conseillers Commerciaux Experts en Assurance',CDI,'Casablanca et région',Bac+2,'Centre d\'appels'
+'Courtier Français en assurance Recrute',CDI,'Casablanca et région',Bac+2,'Centre d\'appels'
+'Gestionnaire de Paie',CDI,'Rabat et région',BAC,'Centre d\'appels'
+'Chargés Clientèle Réception d\'appels',CDI,'Marrakech et région',Bac+2,'Centre d\'appels'
+'Chargés Clientèle Réception d\'appels',CDI,'Casablanca et région',Bac+3,'Centre d\'appels'
+'IT Manager',CDI,'Fès et région',Bac+3,'Centre d\'appels'
+'Chargés Clientèle Réception d\'appels',CDI,'Marrakech et région',Bac+2,'Centre d\'appels'
+'Courtier Français en assurance Recrute',CDI,'Marrakech et région',Bac+2,'Centre d\'appels'
+'Conseillers Commerciaux Experts en Assurance',CDI,'Marrakech et région',Bac+2,'Centre d\'appels'
+'Chargés Clientèle Réception d\'appels',CDI,'Marrakech et région',Bac+2,'Centre d\'appels'
+'Chargés Clientèle Réception d\'appels',CDI,'Casablanca et région',Bac+3,'Centre d\'appels'
+'Courtier Français en assurance Recrute',CDI,'Casablanca et région',Bac+2,'Centre d\'appels'
+'IT Manager',Freelance,'Rabat et région',Bac+3,Éducation
+'Chargés Clientèle Réception d\'appels',CDI,'Marrakech et région',Bac+2,'Centre d\'appels'
+'IT Manager',CDI,'Rabat et région',Bac+3,'Centre d\'appels'
+'Chargés Clientèle Réception d\'appels',CDI,'Marrakech et région',Bac+2,'Centre d\'appels'
+'Conseillers Commerciaux Experts en Assurance',CDI,'Casablanca et région',Bac+3,'Centre d\'appels'
+'IT Manager',CDI,'Fès et région',Bac+3,'Centre d\'appels'
+'Chargés Clientèle Réception d\'appels',CDI,'Marrakech et région',Bac+5,'Centre d\'appels'
+'Courtier Français en assurance Recrute',CDI,'Marrakech et région',Bac+2,'Centre d\'appels'
+'Courtier Français en assurance Recrute',CDI,'Casablanca et région',Bac+2,'Centre d\'appels'
+'Conseillers Commerciaux Experts en Assurance',CDI,'Casablanca et région',Bac+2,'Centre d\'appels'
+'IT Manager',CDI,'Casablanca et région',BAC,'Centre d\'appels'
+'Chargés Clientèle Réception d\'appels',CDI,'Casablanca et région',BAC,'Centre d\'appels'
+'Chargés Clientèle Réception d\'appels',CDI,'Rabat et région',Bac+2,'Centre d\'appels'
+'Conseillers Commerciaux Experts en Assurance',CDI,'Casablanca et région',Bac+2,'Centre d\'appels'
+'Conseillers Commerciaux Experts en Assurance',CDI,'Rabat et région',BAC,'Centre d\'appels'
+'Courtier Français en assurance Recrute',CDI,'Marrakech et région',Bac+2,'Centre d\'appels'
+'Conseillers Commerciaux Experts en Assurance',CDI,'Casablanca et région',Bac+2,'Centre d\'appels'
+'Courtier Français en assurance Recrute',CDI,'Marrakech et région',Bac+2,'Centre d\'appels'
+'IT Manager',CDI,'Casablanca et région',Bac+3,Informatique
+'Technicien maintenance',CDI,'Rabat et région',Bac+3,Informatique
+'Chargés Clientèle Réception d\'appels',CDI,'Marrakech et région',Bac+3,'Centre d\'appels'
+'IT Manager',CDI,'Fès et région',Bac+3,'Centre d\'appels'
+'Concepteur Développeur Python',Stage,'Rabat et région',Bac+2,Informatique
+'Chargés Clientèle Réception d\'appels',CDI,'Casablanca et région',Bac+2,'Centre d\'appels'
+'IT Manager',CDI,'Casablanca et région',Bac+2,'Centre d\'appels'
+'Chargés Clientèle Réception d\'appels',CDI,'Marrakech et région',Bac+2,'Centre d\'appels'
+'Technicien maintenance',CDI,'Casablanca et région',Bac+2,Informatique
+'Conseillers Commerciaux Experts en Assurance',CDI,'Marrakech et région',Bac+2,'Centre d\'appels'
+'Conseillers Commerciaux Experts en Assurance',CDI,'Casablanca et région',Bac+2,'Centre d\'appels'
+'IT Manager',CDI,'kénitra et région',Bac+5,'Centre d\'appels'
+'IT Manager',CDI,'Marrakech et région',Bac+3,'Centre d\'appels'
+'IT Manager',Freelance,'Casablanca et région',Bac+2,Informatique
+'IT Manager',CDI,'kénitra et région',Bac+3,'Centre d\'appels'
+'IT Manager',CDI,'kénitra et région',Bac+3,'Centre d\'appels'
+'Concepteur Développeur Python',CDI,'Tanger et région',Bac+5,Informatique
+'Conseillers Commerciaux Experts en Assurance',CDI,'Marrakech et région',Bac+2,'Centre d\'appels'
+'Conseillers Commerciaux Experts en Assurance',CDI,'Marrakech et région',Bac+2,'Centre d\'appels'
+'Courtier Français en assurance Recrute',CDI,'Marrakech et région',Bac+2,'Centre d\'appels'
+'IT Manager',CDI,'Casablanca et région',Bac+3,Informatique
+'Chargés Clientèle Réception d\'appels',CDI,'Marrakech et région',Bac+2,'Centre d\'appels'
+'Chargés Clientèle Réception d\'appels',CDI,'Casablanca et région',Bac+2,'Centre d\'appels'
+'Chargés Clientèle Réception d\'appels',CDI,'Casablanca et région',Bac+2,'Centre d\'appels'
+'Concepteur Développeur Python',Stage,'Rabat et région',Bac+2,Informatique
+'IT Manager',CDI,'Casablanca et région',Bac+5,Automobile

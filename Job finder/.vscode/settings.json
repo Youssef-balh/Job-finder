@@ -1,0 +1,14 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "flatlaf-3.2.5.jar",
+        "jBCrypt-0.4.jar",
+        "jsoup-1.17.1.jar",
+        "jsoup-1.17.1-sources.jar",
+        "miglayout-4.0.jar",
+        "mysql-connector-j-8.2.0.jar",
+        "opencsv-5.9.jar",
+        "TimingFramework-0.55.jar",
+        "weka-3.7.0.jar"
+    ]
+}
